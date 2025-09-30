@@ -79,10 +79,10 @@ Use Postman or any HTTP client to test the endpoints. The application includes:
 
 ###Key Design Patterns
 
-- **Layered Architecture: Separation of concerns with controller, service, and data layers
-- **Dependency Injection: Constructor-based injection for loose coupling
-- **Repository Pattern: ProductData acts as an in-memory repository
-- **Exception Handling: Centralized error handling with @ExceptionHandler
+- **Layered Architecture**: Separation of concerns with controller, service, and data layers
+- **Dependency Injection**: Constructor-based injection for loose coupling
+- **Repository Pattern**: ProductData acts as an in-memory repository
+- **Exception Handling**: Centralized error handling with @ExceptionHandler
 
 ###Future Enhancements
 
