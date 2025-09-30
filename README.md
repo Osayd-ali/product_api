@@ -23,14 +23,18 @@ This project implements a complete product management system with CRUD operation
 
 ## Project Structure
 
-src/main/java/
-├── controllers/       # REST endpoints
-├── services/          # Business logic layer
-├── dataholder/        # In-memory data storage
-├── entities/          # Domain models
-└── exceptions/        # Custom exceptions
-src/main/resources/
-└── application.properties
+src/
+├── main/
+│   ├── java/
+│   │   └── edu/ali/product_api/
+│   │       ├── controllers/        # REST endpoints
+│   │       ├── services/           # Business logic
+│   │       ├── dataholder/         # Data storage
+│   │       ├── entities/           # Domain models
+│   │       └── exceptions/         # Custom exceptions
+│   └── resources/
+│       └── application.properties  # Configuration
+
 
 ## API Endpoints
 
