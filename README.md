@@ -77,14 +77,14 @@ Use Postman or any HTTP client to test the endpoints. The application includes:
 - HTTP status codes (200, 400, 404) for different scenarios
 - Structured error responses for debugging
 
-###Key Design Patterns
+### Key Design Patterns
 
 - **Layered Architecture**: Separation of concerns with controller, service, and data layers
 - **Dependency Injection**: Constructor-based injection for loose coupling
 - **Repository Pattern**: ProductData acts as an in-memory repository
 - **Exception Handling**: Centralized error handling with @ExceptionHandler
 
-###Future Enhancements
+### Future Enhancements
 
 - Database integration (JPA/Hibernate)
 - Authentication and authorization
