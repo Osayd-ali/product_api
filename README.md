@@ -69,3 +69,25 @@ Products with IDs starting with this prefix are automatically filtered from GET 
 mvn spring-boot:run 
 
 4. The API will be available at http://localhost:8080
+
+### Testing
+Use Postman or any HTTP client to test the endpoints. The application includes:
+
+- Custom exception handling for validation errors
+- HTTP status codes (200, 400, 404) for different scenarios
+- Structured error responses for debugging
+
+###Key Design Patterns
+
+- **Layered Architecture: Separation of concerns with controller, service, and data layers
+- **Dependency Injection: Constructor-based injection for loose coupling
+- **Repository Pattern: ProductData acts as an in-memory repository
+- **Exception Handling: Centralized error handling with @ExceptionHandler
+
+###Future Enhancements
+
+- Database integration (JPA/Hibernate)
+- Authentication and authorization
+- Pagination for large product lists
+- Search and filtering capabilities
+- API documentation with Swagger/OpenAPI
