@@ -60,12 +60,12 @@ product.test.prefix=AAA
 
 Products with IDs starting with this prefix are automatically filtered from GET requests.
 
-Running the Application
+### Running the Application
 
-Clone the repository
-Navigate to the project directory
-Run using Maven:
+1. Clone the repository
+2. Navigate to the project directory
+3. Run using Maven:
 
-bash   mvn spring-boot:run
+mvn spring-boot:run 
 
-The API will be available at http://localhost:8080
+4. The API will be available at http://localhost:8080
